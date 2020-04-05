@@ -28,7 +28,7 @@ Detailed Description
 
 Bir Gazetter yüklemek için
 
-	Gazetteer(String name, String fileName)
+	Gazetteer(string name, string fileName)
 
 Hazır Gazetteerleri kullanmak için
 
@@ -36,4 +36,4 @@ Hazır Gazetteerleri kullanmak için
 
 Bir Gazetteer'de bir kelime var mı diye kontrol etmek için
 
-	boolean contains(String word)
+	boolean Contains(string word)
