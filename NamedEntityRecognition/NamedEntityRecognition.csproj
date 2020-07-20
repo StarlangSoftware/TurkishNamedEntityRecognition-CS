@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>NlpToolkit-NamedEntityRecognition</PackageId>
+        <PackageVersion>1.0.2</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="gazetteer-location.txt" />
+      <EmbeddedResource Include="gazetteer-location.txt" />
+      <None Remove="gazetteer-organization.txt" />
+      <EmbeddedResource Include="gazetteer-organization.txt" />
+      <None Remove="gazetteer-person.txt" />
+      <EmbeddedResource Include="gazetteer-person.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NlpToolkit-Corpus" Version="1.0.3" />
+    </ItemGroup>
+
+</Project>
