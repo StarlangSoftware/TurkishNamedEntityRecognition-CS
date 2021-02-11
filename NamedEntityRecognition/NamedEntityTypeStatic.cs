@@ -9,7 +9,7 @@ namespace NamedEntityRecognition
          */
         public static NamedEntityType GetNamedEntityType(string entityType)
         {
-            switch (entityType)
+            switch (entityType.ToUpper())
             {
                 case "PERSON":
                     return NamedEntityType.PERSON;
