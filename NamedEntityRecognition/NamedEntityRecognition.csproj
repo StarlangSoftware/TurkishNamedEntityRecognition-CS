@@ -4,7 +4,7 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>NlpToolkit-NamedEntityRecognition</PackageId>
-        <PackageVersion>1.0.5</PackageVersion>
+        <PackageVersion>1.0.6</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="NlpToolkit-Corpus" Version="1.0.5" />
+      <PackageReference Include="NlpToolkit-Corpus" Version="1.0.8" />
     </ItemGroup>
 
 </Project>
